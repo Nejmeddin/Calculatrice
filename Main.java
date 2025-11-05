@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 2, b = 3;
+        int a = 2, b = 0;
         System.out.println("Bienvenue");
         Operation op = new Operation();
         System.out.println(a + " * " + b + " = " + op.multiplication(a, b));
