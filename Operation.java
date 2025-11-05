@@ -6,6 +6,8 @@ public class Operation {
     public static int addition(int a, int b) { return a + b; }
     // division hattitha mn lowel
     public static double division(int a, int b) {
+        if(b!=0)
         return (double) a / b;
+        else return (double) 0;
     }
 }
