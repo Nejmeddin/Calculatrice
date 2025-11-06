@@ -3,16 +3,11 @@ public class Main {
         int a = 2, b = 0;
         System.out.println("Bienvenue");
         Operation op = new Operation();
-<<<<<<< HEAD
         System.out.println(a + " * " + b + " = " + Operation.multiplication(a, b));
         System.out.println(a + " - " + b + " = " + Operation.soustraction(a, b));
         System.out.println(a + " + " + b + " = " + Operation.addition(a, b));
-        System.out.println("Aurevoir");
-=======
-        System.out.println(a + " * " + b + " = " + op.multiplication(a, b));
-        System.out.println(a + " - " + b + " = " + op.soustraction(a, b));
-        System.out.println(a + " + " + b + " = " + op.addition(a, b));
         System.out.println(a+" / "+b+" = "+ op.division(a,b));
->>>>>>> division
+        System.out.println("Aurevoir");
     }
 }
+
